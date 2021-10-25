@@ -1,0 +1,32 @@
+
+
+header {
+    text-align: center;
+}
+
+img { 
+    width: 150px;
+}
+
+ul, nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    list-style: none;
+    display: inline-block;
+    width: calc(100% / 3);
+    height: 30px;
+}
+
+
+
+.content {
+    margin: 5px;
+    margin-top: 0px;
+}
